@@ -1,0 +1,128 @@
+{
+  "types": {
+    "personal": {
+      "car": {
+        "name": "Car Insurance",
+        "image": "https://www.allianz.com.au//images/internet/allianz-au/banners/banner-mobile-motor-campaign-april2016.jpg",
+        "infos": {
+          "comprehensive": {
+            "name": "Comprehensive Car Insurance",
+            "infos": [
+              "Cover for accidental damage to your car if you are at fault",
+              "Cover for damage to your car if you are not at fault in an accident and the other vehicle is uninsured",
+              "Cover for accidental loss or damage to your car caused by fire or theft. A 72 hour waiting period apples to bushfire damage",
+              "Cover for accidental damage or loss to your car including flood, storm and hail. A 72 hour waiting period applies to flood ad hail storms",
+              "Reasonable costs of towing after a covered accident (reasonable cost)"
+            ],
+            "extended": [
+              "Cover for accidental damage to other people's property (including vehicles) which is partly or fully your fault",
+              "Approved legal costs arising out of a claim for liability covered by your policy",
+              "Legal liability cover when using a substitute vehicle while your vehicle is being repaired or serviced (excluding hire cars)",
+              "Guarantee on authorised repairs",
+              "Rental car following theft ($100 per day limit, up to 21 days)",
+              "And more"
+            ],
+            "url": "https://www.allianz.com.au/car-insurance/comprehensive-car-insurance/",
+            "quoteUrl": "https://www.allianz.com.au/redirect/motor-quote"
+          },
+          "third party": {
+            "name": "Third Party Property Insurance",
+            "infos": [
+              "Cover for accidental loss or damage to other people's property, (including vehicles) which is partly or fully your fault (legal liability cover)",
+              "Approved legal costs arising out of a covered loss under your policy",
+              "Legal liability cover when using a substitute vehicle while your vehicle is being repaired or serviced (excluding hire cars)",
+              "Accidental damage to your car if you are not at fault in an accident and the other vehicle is uninsured. Up to a market value of $5,000"
+            ],
+            "extended": [
+              "Cover for accidental loss or damage to other people's property (including vehicles) which is partly or fully your fault (legal liability cover)",
+              "Approved legal costs arising out of a covered loss under your policy",
+              "Legal liability cover when using a substitute vehicle while your vehicle is being repaired or serviced (excluding hire cars)",
+              "Guarantee on authorised repairs (Own vehicle repairs only)",
+              "Accidental damage to your car if you are not at fault in an accident and the other vehicle is uninsured. Up to a market value of $5,000",
+              "Cover of up to $5,000 for accidental loss or damage to your car caused by fire or theft",
+              "Reasonable costs of towing after a covered accident"
+            ],
+            "url": "https://www.allianz.com.au/car-insurance/third-party-property-damage-car-insurance/",
+            "quoteUrl": "https://www.allianz.com.au/redirect/motor-quote"
+          }
+        }
+      },
+      "home": {
+        "name": "Home Insurance",
+        "image": "https://www.allianz.com.au/images/internet/allianz-au/banners/banner-mobile-home-campaign-april2016.jpg",
+        "infos": {
+          "building": {
+            "name": "Buildings Insurance",
+            "infos": [
+              "Quick and easy claims service 24/7",
+              "Friendly and helpful staff to help you get the right protection",
+              "Payment options to meet your needs",
+              "100% Australia based contact centre",
+              "You can save on your premium if you choose not to buy flood cover"
+            ],
+            "extended": [
+            ],
+            "url": "https://www.allianz.com.au/home-insurance/building/",
+            "quoteUrl": "https://www.allianz.com.au/redirect/home-quote"
+          },
+          "content": {
+            "name": "Contents Insurance",
+            "infos": [
+              "Quick and easy claims service 24/7",
+              "Friendly and helpful staff to help you get the right protection",
+              "Payment options to meet your needs",
+              "100% Australia based contact centre",
+              "When we replace your contents, we always replace them with brand new ones regardless of how old your contents are",
+              "We can protect your portable items such as your mobile phones, cameras and engagement ring, when you take them out of home, even overseas",
+              "We will also protect you anywhere in the world from having to pay hefty compensation for injury to other people or damage to their property where you are legally liable for up to $20 million."
+            ],
+            "extended": [
+            ],
+            "url": "https://www.allianz.com.au/home-insurance/building/",
+            "quoteUrl": "https://www.allianz.com.au/redirect/home-quote"
+          }
+        }
+      },
+      "life": {
+        "name": "Life Insurance",
+        "image": "https://www.allianz.com.au/images/internet/allianz-au/banners/banner-mobile-life.jpg",
+        "infos": {
+          "critical illness": {
+            "name": "Critical Illness Cover",
+            "infos": [
+              "The following 14 conditions are covered under Allianz’ Critical Illness cover:",
+              "Cancer",
+              "Open Chest Surgery",
+              "Coronary Artery By-Pass",
+              "Triple Vessel Angioplasty",
+              "Heart Attack",
+              "Stroke",
+              "Multiple Sclerosis",
+              "Motor Neurone Disease",
+              "Parkinson’s Disease",
+              "Muscular Dystrophy",
+              "Lung Failure",
+              "Kidney Failure",
+              "Liver Failure",
+              "Major Organ Transplant"
+            ],
+            "extended": [
+            ],
+            "url": "https://www.allianz.com.au/home-insurance/building/",
+            "quoteUrl": "https://www.allianz.com.au/redirect/home-quote"
+          },
+          "cover": {
+            "name": "Life Cover",
+            "infos": [
+              "Life cover provides much needed financial security in a time of uncertainty. The lump sum payment can help cover mortgage payments, school fees, bills, groceries, other living expenses and funeral costs. The loss of a loved one is enough to deal with and the last thing you want your family to worry about at a time like that is their finances. Life cover gives you the peace of mind of knowing that they will be taken care of if you are no longer around."
+            ],
+            "extended": [
+            ],
+            "url": "https://www.allianz.com.au/life-insurance/cover/",
+            "quoteUrl": "https://www.allianz.com.au/redirect/life-quote-product-main"
+          }
+        }
+      }
+    }
+  }
+}
