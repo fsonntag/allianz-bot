@@ -89,8 +89,8 @@ def resolve_command(chat_id, message):
     if "third" in message or "party" in message:
         return "car_detail", "party"
 
-    if "life" in message:
-        return "life_detail", "life"
+    if "life" in message and "cover" in message:
+        return "life_detail", "cover"
 
     if "critical" in message or "illness" in message:
         return "life_detail", "illness"
@@ -101,7 +101,7 @@ def resolve_command(chat_id, message):
     if "building" in message:
         return "home_detail", "building"
 
-    if "available" in message:
+    if "available" in message or "offer" in message:
         return "available", []
 
     if "car" in message:
@@ -190,7 +190,8 @@ def language_command_handler(bot, update):
 
         elif command == "bye":
             say_bye(bot, chat_id)
-    except:
+    except Exception as e:
+        print(e)
         dont_know(bot, chat_id)
 
 
@@ -215,8 +216,10 @@ def show_info_url(bot, chat_id, insurance):
     bot.sendMessage(chat_id=chat_id, text=random.choice(texts.quote)(shorten_link(url)))
 
 def show_available(bot, chat_id):
-    # insurance_names = insurance_infos['types']['personal'].val
-    pass
+    insurance_names = [info['name'] for info in insurance_infos['types']['personal'].values()]
+    bot.sendMessage(chat_id=chat_id, text=random.choice(texts.available))
+    for name in insurance_names:
+        bot.sendMessage(chat_id=chat_id, text=name)
 
 def query_car(bot, chat_id):
     options = [insurance['name'] for insurance in insurance_infos['types']['personal']['car']['infos'].values()]
